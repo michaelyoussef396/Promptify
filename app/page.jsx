@@ -1,4 +1,4 @@
-
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         promptify is an open-souce AI prompting tool for the modern world to discover, create and share creative prompts
       </p>
 
-      {/* feed */}
+      <Feed />
     </section>
   )
 }
